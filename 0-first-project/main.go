@@ -8,7 +8,7 @@ import (
 func main() {
 	led := machine.LED
 	led.Configure(machine.PinConfig{
-		mode: machine.PinOutput,
+		Mode: machine.PinOutput,
 	})
 
 	for {

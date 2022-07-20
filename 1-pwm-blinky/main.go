@@ -27,7 +27,7 @@ func main() {
 		for i := 1; i < 255; i++ {
 			// This performs a fade-out blink
 			pwm.Set(ch, pwm.Top()/uint32(i))
-			time.Sleep(time.Microsecond * 5)
+			time.Sleep(time.Microsecond * 50)
 		}
 	}
 
